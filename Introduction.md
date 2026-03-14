@@ -1,24 +1,32 @@
-# Personal Home Page
+# 個人主頁 Profile
 
-Welcome to my personal home page! This is my space to showcase myself.
+歡迎來到我的個人主頁！這是我新試部署的個人頁空間。
 
-## About Me
+## 關於我 About Me
 
-I'm a developer passionate about coding and exploring new technologies. I enjoy solving interesting problems and building great projects.
+我是一名遊戲直播主 平時會開發各種關於有關直播的各種小工具
 
-## Tech Stack
+同時有在製作推流相關應用適用於iOS參閱[ReplyKit](https://github.com/TwhomeGH/ReplyKit)項目
 
+
+
+## 技術堆疊 Tech Stack
+
+- Swift
 - Python
+- Node.js
 - JavaScript
 - HTML/CSS
-- TypeScript
-- React
-- Node.js
 
-## Projects
 
-Here you can view my latest projects and contributions on GitHub.
+## 項目 Projects 
 
-## Contact
+在這裡，您可以在GitHub上檢視我的最新專案和貢獻
 
-If you're interested in my projects or have any questions, feel free to contact me through GitHub.
+## 聯繫 Contact
+
+如果您對我的專案感興趣或有任何問題
+
+可以到[Discord群](https://discord.gg/jud4UE6wuq) 上聯繫我
+
+如果項目遇到也可以使用 Issues / Pull Requeset 提出

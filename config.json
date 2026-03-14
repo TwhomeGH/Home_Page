@@ -1,0 +1,18 @@
+{
+                "github_url": "https://github.com/TwhomeGH",
+                "dark_mode": "auto",
+                "name": "Nuclear0709",
+                "bio": "iOS應用開發者",
+                "introduction_file": "Introduction.md",
+                "github_token": "",  # 添加GitHub令牌配置项
+                "theme": {
+                    "primary_color": "#6a11cb",
+                    "secondary_color": "#2575fc"
+                },
+                "background": {
+                    "image": "background.png",
+                    "blur": 8,
+                    "overlay_opacity": 0.6,
+                    "overlay_color": "#121212"
+                }
+}

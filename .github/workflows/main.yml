@@ -31,8 +31,8 @@ jobs:
     steps:
       # 1. 检出代码库
       - name: Checkout code
-        uses: actions/checkout@ 2. 设置Python环境
+        uses: actions/checkout@v6
       - name: Set up Python
-        uses: actions/setup-python@v6.0.0
+        uses: actions/setup-python@v6
         with:
           python-version: '3.13'

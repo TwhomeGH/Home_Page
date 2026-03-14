@@ -36,3 +36,33 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.13'
+
+
+
+      # 3. 安装项目依赖
+      - name: Install dependencies
+        run: |
+          bash deploy.sh install
+          
+      # 4. 运行构建脚本生成静态文件
+      - name: Generate static files
+        run: bash deploy.sh build
+
+      # 5. 创建输出目录
+      #- name: Prepare output directory
+      #  run: mkdir -p output && cp index.html background.jpg output/
+
+      # 6. 设置GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # 7. 上传构建产物
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './output'
+
+      # 8. 部署到GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

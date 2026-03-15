@@ -54,7 +54,7 @@ jobs:
 
       # 6. 设置GitHub Pages
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       # 7. 上传构建产物
       - name: Upload artifact

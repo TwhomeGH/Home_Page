@@ -7,12 +7,14 @@
                 "github_token": "",
                 "theme": {
                     "primary_color": "#deb5ff",
-                    "secondary_color": "#2575fc"
+                    "secondary_color": "#2575fc",
+                    "dark_primary_color": "#a855f7",
+                    "dark_secondary_color": "#60a5fa"
                 },
                 "background": {
                     "image": "background.jpg",
                     "blur": 8,
-                    "overlay_opacity": 0.6,
+                    "overlay_opacity": 0.7,
                     "overlay_color": "#121212"
                 }, 
                 "contact": {

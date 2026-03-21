@@ -6,9 +6,9 @@
                 "introduction_file": "Introduction.md",
                 "github_token": "",
                 "theme": {
-                    "primary_color": "#deb5ff",
+                    "primary_color": "#d581ff",
                     "secondary_color": "#2575fc",
-                    "dark_primary_color": "#a855f7",
+                    "dark_primary_color": "#d581ff",
                     "dark_secondary_color": "#60a5fa"
                 },
                 "background": {
